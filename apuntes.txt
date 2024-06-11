@@ -1,0 +1,4 @@
+Variables: var y let
+var el entorno /ambito es global!!
+para declarar en un ambito de bloque, se debe declarar con let
+NO VOLVER A USAR VAR
