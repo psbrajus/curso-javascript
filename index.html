@@ -13,6 +13,7 @@
     </div>
     <h1>Fundamentos javascript</h1>
     <script>
+      /*
       var hola = "hola mundo";
       let msj = "hola mundo, declarado con let";
       console.log(hola);
@@ -20,6 +21,32 @@
       console.log(window);
       console.log(window.hola);
       console.log(window.msj);
+      //ambito de bloque
+      console.log("**************let*********************");
+      var musica = "rock";
+      console.log("variable musica antes del bloque", musica);
+      {
+        var musica = "pop";
+        console.log("variable musica dentro del  bloque", musica);
+      }
+      console.log("variable musica despues del  bloque", musica);
+      
+      console.log("**************let*********************");
+      let musica2 = "rock";
+      console.log("variable musica antes del bloque", musica2);
+      {
+        let musica2 = "pop";
+        console.log("variable musica dentro del  bloque", musica2);
+      }
+      console.log("variable musica despues del  bloque", musica2); */
+      const PI = 3.1416;
+      let a;
+      console.log(PI);
+      a = "pablo";
+      console.log(a);
+      console.log("no se puede declarar una constante sin valor/vacia");
+
+      console.log(PI);
     </script>
   </body>
 </html>
