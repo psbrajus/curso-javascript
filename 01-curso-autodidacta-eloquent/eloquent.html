@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso complementario jst</title>
+  </head>
+  <body>
+    <h1>Aprendiendo javascript de manera autodidacta</h1>
+    <script>
+      let total = 0;
+      let cuenta = 1;
+      while (cuenta <= 10) {
+        total += cuenta;
+        cuenta += 1;
+      }
+      console.log(total);
+      // Función para generar un array con los números del 1 al 10
+      function rango(inicio, fin) {
+        let array = [];
+        for (let i = inicio; i <= fin; i++) {
+          array.push(i);
+        }
+        return array;
+      }
+
+      // Función para sumar los números en el array
+      function suma(array) {
+        let total = 0;
+        for (let numero of array) {
+          total += numero;
+        }
+        return total;
+      }
+
+      console.log(suma(rango(1, 10)));
+
+      let texto =
+        "hola mi nombre es pablo\nEstoy aprendiendo javascript de manera autodidacta";
+      let edad = 31;
+
+      console.log(texto);
+      console.log(typeof 5);
+      console.log(typeof "hola");
+      console.log(Boolean);
+      console.log();
+    </script>
+  </body>
+</html>
